@@ -12,7 +12,7 @@
 
         /*
          *author:leslieSie 
-         *description:¹ØÓÚMultSideBar²å¼şµÄ¼òµ¥Ó¦ÓÃ
+         *description:å…³äºMultSideBaræ’ä»¶çš„ç®€å•åº”ç”¨
          *time:2016/12/11
          */
         $("#test").multSideBar({
@@ -20,29 +20,29 @@
             show:{
                 data:[
                 {
-                    icon:"weibo",   //weixin,qq,facebook,taobao£¬zhifubao,weibo
-                    type:"hollow",   //¿ÉÑ¡²ÎÊıÓĞhollow,solid
-                    noCustom:true,    //×Ô¶¨ÒåÀàĞÍ£¬Ö»ÓĞÔÚcustomÎªtrueµÄÊ±ºò£¬customUrl²ÅÓĞĞ§
-                    text:"Î¢²©",
-                    customUrl:"",    //Í¼Æ¬µÄURL
+                    icon:"weibo",   //weixin,qq,facebook,taobaoï¼Œzhifubao,weibo
+                    type:"hollow",   //å¯é€‰å‚æ•°æœ‰hollow,solid
+                    noCustom:true,    //è‡ªå®šä¹‰ç±»å‹ï¼Œåªæœ‰åœ¨customä¸ºtrueçš„æ—¶å€™ï¼ŒcustomUrlæ‰æœ‰æ•ˆ
+                    text:"å¾®åš",
+                    customUrl:"",    //å›¾ç‰‡çš„URL
                     click:function(){  
                         window.location.href="https://www.weibo.com";
                     },         
                 },{
-                    icon:"weibo",   //weixin,qq,facebook,taobao£¬zhifubao,weibo
-                    type:"hollow",   //¿ÉÑ¡²ÎÊıÓĞhollow,solid
-                    noCustom:false,    //×Ô¶¨ÒåÀàĞÍ£¬Ö»ÓĞÔÚcustomÎªtrueµÄÊ±ºò£¬customUrl²ÅÓĞĞ§
-                    text:"Ğ¡ÍÃ×Ó",
-                    customUrl:"img/custom.svg",    //Í¼Æ¬µÄURL
+                    icon:"weibo",   //weixin,qq,facebook,taobaoï¼Œzhifubao,weibo
+                    type:"hollow",   //å¯é€‰å‚æ•°æœ‰hollow,solid
+                    noCustom:false,    //è‡ªå®šä¹‰ç±»å‹ï¼Œåªæœ‰åœ¨customä¸ºtrueçš„æ—¶å€™ï¼ŒcustomUrlæ‰æœ‰æ•ˆ
+                    text:"å°å…”å­",
+                    customUrl:"img/custom.svg",    //å›¾ç‰‡çš„URL
                     click:function(){
                         window.location.href="https://www.baidu.com";
-                    },        //µã»÷ºóµÄĞ§¹û        
+                    },        //ç‚¹å‡»åçš„æ•ˆæœ        
                 },{
-                    icon:"goTop",   //weixin,qq,facebook,taobao£¬zhifubao,weibo
-                    type:"solid",   //¿ÉÑ¡²ÎÊıÓĞhollow,solid
-                    noCustom:true,    //×Ô¶¨ÒåÀàĞÍ£¬Ö»ÓĞÔÚcustomÎªtrueµÄÊ±ºò£¬customUrl²ÅÓĞĞ§
-                    text:"ÖÃ¶¥",
-                    customUrl:"",    //Í¼Æ¬µÄURL
+                    icon:"goTop",   //weixin,qq,facebook,taobaoï¼Œzhifubao,weibo
+                    type:"solid",   //å¯é€‰å‚æ•°æœ‰hollow,solid
+                    noCustom:true,    //è‡ªå®šä¹‰ç±»å‹ï¼Œåªæœ‰åœ¨customä¸ºtrueçš„æ—¶å€™ï¼ŒcustomUrlæ‰æœ‰æ•ˆ
+                    text:"ç½®é¡¶",
+                    customUrl:"",    //å›¾ç‰‡çš„URL1
                 }]
             }
         });
